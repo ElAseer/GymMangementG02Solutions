@@ -14,4 +14,13 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="wwwroot\assets\bootstrap-icons\font\bootstrap-icons.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\assets\css\route.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
